@@ -29,5 +29,5 @@ python3 UDP_client.py
 ```
 in middle from any of switch/router collect the data for wireshark --> 
 ```
-sudo tcpdump -i r2-eth0 -tttt -w traces.pcap
+sudo tcpdump -i r1-eth0 -tttt -w traces.pcap
 ```
